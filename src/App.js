@@ -83,8 +83,6 @@ function App() {
                <div className="flex flex-col justify-start items-start w-full pl-2 mt-2">
                 <button type="submit" className="text-xs border border-gray-500 rounded-md px-2 py-1 bg-blue-500 text-white hover:bg-green-400" onClick={handleSubmit}>Submit</button>
               </div>
-              
-              
             </div>
           )}
         </div>
@@ -95,7 +93,7 @@ function App() {
           {posts &&
             posts.map((user) => (
               <div className="flex flex-col bg-purple-300 w-[30%]  px-2 py-3 rounded-md border border-gray-500 relative">
-                <div className='flex flex-col  justify-center items-start gap-2'>
+                <div className='flex flex-col justify-center items-start gap-2'>
                   <div className="flex rounded-lg bg-blue-600 p-2">
                     <p className="flex justify-start text-white text-xs font-bold">Id:{user.id}</p>
                   </div>
